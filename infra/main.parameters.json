@@ -63,16 +63,13 @@
       "value": "${AZURE_SEARCH_SERVICE_SKU=standard}"
     },
     "searchQueryLanguage": {
-      "value": ["en-US", "el-GR"]
+      "value": "${AZURE_SEARCH_QUERY_LANGUAGE=en-us}"
     },
     "searchQuerySpeller": {
       "value": "${AZURE_SEARCH_QUERY_SPELLER=lexicon}"
     },
     "searchServiceSemanticRankerLevel": {
       "value": "${AZURE_SEARCH_SEMANTIC_RANKER=free}"
-    },
-    "recognizedLanguages": {
-      "value": ["en-US", "el-GR"]
     },
     "storageAccountName": {
       "value": "${AZURE_STORAGE_ACCOUNT}"
